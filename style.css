@@ -1,0 +1,82 @@
+
+header{
+    background-color: #828cfa;
+    height: 100px;
+    display:flex;
+align-items: center;
+justify-content: space-around;
+box-shadow: 0px 5px 30px 2px #828cfa;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+header h1{
+    color: white;
+
+}
+nav{
+    font-size: 26px;
+    color: white;
+
+}
+nav a{
+    margin-left: 15px;
+}
+main{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about{
+    height: 100px;
+    background-color: #e0ecff;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+article img{
+    width: 300px;
+
+}
+article div{
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+article{
+    text-align: center;
+}
+article button{
+    background-color: #faf082;
+    border: 0px;
+    color: rgb(0, 0, 0);
+    border-radius: 15px;
+    height: 20px;
+    width: 70px;
+    transition-duration: 0.3s;
+}
+article button:hover{
+    background-color: #e0d22e;
+    height: 30px;
+    width: 80px;
+
+
+}
+.products{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 50%;
+}
+footer{
+    height: 100px;
+    background-color: #828cfa;
+    color: white;
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 50px;
+}
